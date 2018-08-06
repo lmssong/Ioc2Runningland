@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'LIST_MASTER_TITLE' | translate }}</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addItem()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="card-background-page">
+
+    <ion-card  (click)="labMainDetail();">
+      <img src="assets/img/pro-main/lab-main.png"/>
+      <div class="card-title">实验室管理</div>
+      <div class="card-subtitle">实验室任务，报告查看</div>
+    </ion-card>
+  
+    <ion-card (click)="saleMainDetail();">
+      <img src="assets/img/pro-main/sale-main.png"/>
+      <div class="card-title">销售管理</div>
+      <div class="card-subtitle">收样、订单、外检委托</div>
+    </ion-card>
+  
+
+  
+  </ion-content>

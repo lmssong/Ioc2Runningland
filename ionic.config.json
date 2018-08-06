@@ -1,0 +1,7 @@
+{
+  "name": "Ioc2Runningland",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
